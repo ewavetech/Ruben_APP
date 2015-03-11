@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true">
+
+    <ImageView
+        android:id="@+id/question_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/test_task_image_paddign"
+        android:paddingLeft="@dimen/test_task_image_paddign"
+        android:paddingRight="@dimen/test_task_image_paddign"
+        android:paddingTop="20dp"
+        android:scaleType="centerInside" />
+</merge>

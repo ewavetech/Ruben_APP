@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/frame_grey">
+
+    <LinearLayout
+        android:id="@+id/statusButtonsView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/notDoneButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/not_done_button_text" />
+
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/done_button_text" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/statusButtonsView"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/sollution_widgets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <se.hiq.losningsappen.content.ui.HintView
+                android:id="@+id/answer_view"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:minHeight="100dp"
+                android:visibility="gone"
+                custom:hintview_label="@string/answer_label" />
+
+            <se.hiq.losningsappen.content.ui.HintView
+                android:id="@+id/hint_view"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:minHeight="100dp"
+                android:visibility="gone"
+                custom:hintview_label="@string/hint_label" />
+
+            <se.hiq.losningsappen.content.ui.HintView
+                android:id="@+id/sollution_view"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:minHeight="100dp"
+                android:visibility="gone"
+                custom:hintview_label="@string/sollution_label" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

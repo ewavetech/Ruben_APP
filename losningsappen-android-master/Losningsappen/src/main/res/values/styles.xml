@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:tabWidgetStyle">@style/TabStyle</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="TabStyle" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+
+    <style name="ListLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSmall</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingEnd">?android:attr/listPreferredItemPaddingStart</item>
+        <item name="android:paddingStart">?android:attr/listPreferredItemPaddingEnd</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeightSmall</item>
+    </style>
+
+    <style name="list_item_text_description">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="radiobutton_style">
+        <item name="android:paddingTop">@dimen/content_item_padding</item>
+        <item name="android:paddingBottom">@dimen/content_item_padding</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:button">@drawable/radiobutton_state_drawable</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">Button</item>
+        <item name="android:background">@drawable/radiobutton_state_drawable</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="hint_view_overlay">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">#ffea7b4c</item>
+    </style>
+
+    <style name="SplashTheme" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="tab_text">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@color/frame_grey</item>
+    </style>
+
+    <style name="tab_container_style">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ActionBarTabStyle" parent="android:Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_bg</item>
+    </style>
+
+    <style name="test_result_text">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ff353535</item>
+    </style>
+</resources>

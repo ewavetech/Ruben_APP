@@ -1,0 +1,122 @@
+#body{
+ font-family: "Times New Roman",Arial,sans-serif;
+ font-weight: normal;
+ font-size: 8px;
+ }
+
+div#container {
+width: 450px;
+}
+
+.svaralternativ {
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 11pt;
+  color: rgb(116, 179, 28);
+}
+
+.uppgift {
+  background-color:#FFFFFF;
+  height: auto;
+  font-weight: bold;
+  font-size: 10pt;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+
+.deluppgift {
+  height: auto;
+  width:30px;
+  float:left;
+  font-size: 10pt;
+}
+
+.innehall {
+  height:auto;
+  width:300px;
+  float:left;
+  font-size: 10pt;
+}
+
+.losningstitel {
+  color: rgb(29, 142, 175);
+  font-style: italic;
+  font-size: 10pt;
+  padding-top: 5px;
+}
+
+.losning {
+  color: rgb(29, 142, 175);
+  font-size: 10pt;
+}
+
+.losningrod {
+  color: red;
+  font-size: 10pt;
+}
+
+.losningrodkursiv {
+  color: red;
+  font-style: italic;
+  font-size: 10pt;
+}
+
+.ledtradstitel {
+  color: rgb(61, 27, 127);
+  font-style: italic;
+  font-size: 10pt;
+}
+
+.ledtrad {
+  color: rgb(61, 27, 127);
+  font-size: 10pt;
+}
+
+.ledtradrod {
+  color: red;
+  font-size: 10pt;
+}
+
+.ledtradrodkursiv {
+  color: red;
+  font-style: italic;
+  font-size: 10pt;
+}
+
+.mathimage {
+  height: auto;
+  vertical-align: middle; 
+}
+
+
+.svar {
+  font-size: 10pt;
+}
+
+.svarstitel {
+  font-style: italic;
+  font-size: 10pt;
+}
+
+.svarkursiv {
+  font-style: italic;
+  font-size: 10pt;
+}
+
+.text {
+  margin-bottom: 10px;
+  font-size: 10pt;
+}
+
+.15radavstand {
+  height: 200px;
+  clear: both;
+  text-align: center;
+}
+
+ .spacer {
+ background-color:#FFFFFF;
+ clear:both;
+ text-align:center;
+ height: 15px;
+ }

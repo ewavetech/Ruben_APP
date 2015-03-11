@@ -1,0 +1,70 @@
+[
+		{
+		"meta":"Kapitel 1 Aritmetik",
+		"name":"Kapitel 1 Aritmetik",
+		"number":"3",
+		"subChapters":[
+				{
+					"name":"1.1 Positiva tal"
+					,"videoLinks":[]
+					,"tasks":[
+							{
+								"chapter":"Kapitel 1 Aritmetik"
+								,"subchapter":"1.1 Positiva tal"
+								,"name":"1"
+								,"page":null
+								,"subTasks":[
+									{
+										"name":"c)"
+										,"parentName":"1"
+										,"texts":[]
+										,"videoLink":null
+										,"answers":["<p>Jag har tre &auml;pplen</p>"]
+										,"solutions":["<p>2x =10</p>"]
+										,"hints":["<p>2x =5</p>"]
+									}
+								]
+							}
+						]
+				}
+					]
+				
+		},
+
+		{
+		"meta":"Kapitel 2  Procent",
+		"name":"Kapitel 2  Procent",
+		"number":"5",
+		"subChapters":[]
+		},
+
+
+		{
+		"meta":"Kapitel 3 Negativa tal",
+		"name":"Kapitel 3 Negativa tal",
+		"number":"6",
+		"subChapters":
+		[
+			{"tasks":[
+				{
+				"chapter":"Kapitel 3 Negativa tal"
+				,"subchapter":"Negativa Tal grunder"
+				,"name":"1"
+				,"page":null
+				,"subTasks":[
+				{
+					"name":"a)"
+					,"parentName":"1"
+					,"answers":["<p>3x=5</p>"]
+					,"texts":[]
+					,"videoLink":"vimeo.com/1234"
+					,"solutions":["<p>2x=5</p>"]
+					,"hints":["<p>2x=5</p>"]}]}]
+					,"name":"Negativa Tal grunder"
+					,"videoLinks":[]
+				}
+		]
+				
+		}
+		
+]

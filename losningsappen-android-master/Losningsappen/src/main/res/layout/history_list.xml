@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/filter_menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:weightSum="90">
+
+        <ToggleButton
+            android:id="@+id/finished_filter_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:background="@drawable/filter_button_bg"
+            android:drawableTop="@drawable/passed_inset"
+            android:gravity="bottom|center_horizontal"
+            android:textOff="@string/finished"
+            android:textOn="@string/finished" />
+
+        <ToggleButton
+            android:id="@+id/not_finished_filter_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="30"
+            android:background="@drawable/filter_button_bg"
+            android:drawableTop="@drawable/not_passed_inset"
+            android:gravity="bottom|center_horizontal"
+            android:textOff="@string/not_finished"
+            android:textOn="@string/not_finished" />
+
+        <ToggleButton
+            android:id="@+id/chapter_test_filter_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_weight="30"
+            android:background="@drawable/filter_button_bg"
+            android:drawableTop="@drawable/ic_action_view_as_grid"
+            android:gravity="bottom|center_horizontal"
+            android:textOff="@string/chapter_test"
+            android:textOn="@string/chapter_test" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/history_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

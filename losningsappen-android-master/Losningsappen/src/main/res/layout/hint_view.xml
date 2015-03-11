@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/info_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/content_item_padding"
+            android:text="Lorem ipsum.." />
+
+        <Button
+            android:id="@+id/more_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_box"
+            android:layout_centerHorizontal="true"
+            android:minHeight="0dp"
+            android:padding="5dp"
+            android:text="Visa mer"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/overlay_box"
+        style="@style/hint_view_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/hint_view_bg"
+        android:clickable="true"
+        android:padding="@dimen/content_item_padding"
+        android:text="Push to show hint" />
+</FrameLayout>

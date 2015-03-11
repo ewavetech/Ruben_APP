@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lösningsappen</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="search_hint">Sök efter en uppgift</string>
+    <string name="passed_description">Visar ifall uppgiften är klar eller inte</string>
+    <string name="not_done_button_text">Inte klar</string>
+    <string name="done_button_text">Klar</string>
+    <string name="search_result_label">Sökresultat</string>
+    <string name="corret_chapter_test_button_text">Rätta</string>
+    <string name="finished">Klara</string>
+    <string name="not_finished">Inte klar</string>
+    <string name="chapter_test">Kapiteltest</string>
+    <string name="task_name_prefix">Uppgift</string>
+    <string name="answer_label">Svar</string>
+    <string name="hint_label">Ledtråd</string>
+    <string name="sollution_label">Lösning</string>
+    <string name="test_result_base">[#rightAnswers] rätt av [#totalAnswers] möjliga</string>
+    <string name="title_activity_video_pager">VideoPagerActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="quest_ans"> Svar, lösningar  och  ledtrådar </string>
+    <string name="assignment"> Filmgenomgångar </string>
+
+</resources>

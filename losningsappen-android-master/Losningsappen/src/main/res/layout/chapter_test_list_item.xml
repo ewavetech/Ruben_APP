@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/list_item_padding">
+
+    <se.hiq.losningsappen.history.PieChartView
+        android:id="@+id/chapter_pie_chart"
+        android:layout_width="@dimen/status_image_diameter"
+        android:layout_height="@dimen/status_image_diameter"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/black_circle"
+        android:padding="@dimen/status_image_padding"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/history_item_description"
+        style="@style/list_item_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/chapter_pie_chart"
+        android:text="Description text" />
+</RelativeLayout>

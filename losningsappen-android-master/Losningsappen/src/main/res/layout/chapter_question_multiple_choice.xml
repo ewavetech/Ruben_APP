@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/question_image"
+            layout="@layout/chaptertest_question_imageview" />
+
+        <WebView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/question_image"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/check_boxes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/questionText"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/correct_indicator"
+        android:layout_width="@dimen/correct_indicator_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|left" />
+</FrameLayout>

@@ -1,0 +1,90 @@
+{
+    "meta": "Tipset består av 10 flervalsfrågor där varje fråga har 3 svarsalternativ markerade 1, x, 2.Digitala verktyg är inte tillåtna.", 
+    "questions": [
+        {
+            "choices": [
+                {
+                    "isCorrectAnswer": false, 
+                    "number": "1)", 
+                    "text": "Addition"
+                }, 
+                {
+                    "isCorrectAnswer": true, 
+                    "number": "x)", 
+                    "text": "Multiplikation"
+                }, 
+                {
+                    "isCorrectAnswer": false, 
+                    "number": "2)", 
+                    "text": "Subtraktion"
+                }
+            ], 
+            "number": "1", 
+            "text": "Vad heter räknesättet när man beräknar en produkt?"
+        }, 
+        {
+            "choices": [
+                {
+                    "isCorrectAnswer": false, 
+                    "number": "1)", 
+                    "text": "87"
+                }, 
+                {
+                    "isCorrectAnswer": false, 
+                    "number": "x)", 
+                    "text": "88"
+                }, 
+                {
+                    "isCorrectAnswer": true, 
+                    "number": "2)", 
+                    "text": "89"
+                }
+            ], 
+            "number": "2", 
+            "text": "Ett av talen 87, 88, 89  är ett primtal. Vilket?"
+        }, 
+        {
+            "choices": [
+                {
+                    "isCorrectAnswer": false, 
+                    "number": "1)", 
+                    "text": "0,47"
+                }, 
+                {
+                    "isCorrectAnswer": true, 
+                    "number": "x)", 
+                    "text": "0,48"
+                }, 
+                {
+                    "isCorrectAnswer": false, 
+                    "number": "2)", 
+                    "text": "0,49"
+                }
+            ], 
+            "number": "3", 
+            "text": "Vilket tal pekar pilen på?"
+        }, 
+        {
+            "choices": [
+                {
+                    "isCorrectAnswer": false, 
+                    "number": "1)", 
+                    "text": "– 4"
+                }, 
+                {
+                    "isCorrectAnswer": false, 
+                    "number": "x)", 
+                    "text": "– 15"
+                }, 
+                {
+                    "isCorrectAnswer": true, 
+                    "number": "2)", 
+                    "text": "– 25"
+                }
+            ], 
+            "number": "4", 
+            "text": "Summan av ett positivt och ett negativt tal är – 20. Det positiva talet är 5. Vilket är det negativa talet?"
+        }
+    ], 
+    "titel": "Kapiteltips 1 Aritmetik – om tal"
+}

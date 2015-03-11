@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/correctButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/corret_chapter_test_button_text" />
+
+        <RelativeLayout
+            android:id="@+id/test_result_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/checked_bg"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/retry_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="3dp"
+                android:src="@drawable/retry_icon" />
+
+            <TextView
+                android:id="@+id/test_result_text"
+                style="@style/test_result_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/retry_button"
+                android:gravity="center"
+                android:text="Test text" />
+        </RelativeLayout>
+    </FrameLayout>
+
+
+    <ListView
+        android:id="@+id/questionsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/button_container"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/question_image"
+            layout="@layout/chaptertest_question_imageview" />
+
+        <WebView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question_image"
+            android:padding="@dimen/content_item_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/radio_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/questionText"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <RadioButton
+                android:id="@+id/radioOne"
+                style="@style/radiobutton_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+
+            <RadioButton
+                android:id="@+id/radioTwo"
+                style="@style/radiobutton_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/correct_indicator"
+        android:layout_width="@dimen/correct_indicator_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|left" />
+</FrameLayout>

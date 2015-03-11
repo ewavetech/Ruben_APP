@@ -1,0 +1,48 @@
+ [
+  {
+  "title": "Matte 5000 bc test",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget massa dolor. Aenean et urna sollicitudin, gravida diam quis, varius elit. Fusce ut posuere nisi. Cras id hendrerit massa, ut faucibus sapien. Duis odio quam, pulvinar sed magna in, consequat consectetur eros. Sed porttitor sodales imperdiet. Curabitur in mi nunc. Vivamus posuere placerat arcu a elementum. Sed sollicitudin neque sed nulla vehicula, a vehicula ante dapibus. Vivamus pellentesque pellentesque justo, non convallis lectus tincidunt vel. Sed mollis augue mattis, malesuada diam et, suscipit leo. Ut a sapien pretium, tempus neque ut, aliquam nisi. Mauris vel bibendum massa, vel luctus ligula. Donec risus turpis, gravida in ante ut, volutpat scelerisque metus. Praesent laoreet ullamcorper posuere.",
+  "chapterTestFile": {
+  "name": "chapterTests",
+  "type": "json"
+  },
+  "contentFile": {
+  "name": "content",
+  "type": "json"
+  },
+  "color": "#1BA39C",
+  "bookPath": "Matte5000_TEST0",
+  "productIdentifier" : "se.nok.losningsappen.matte5000bc"
+  },
+  {
+  "title": "Matte 5000 Röd Gul test",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget massa dolor. Aenean et urna sollicitudin, gravida diam quis, varius elit. Fusce ut posuere nisi. Cras id hendrerit massa, ut faucibus sapien. Duis odio quam, pulvinar sed magna in, consequat consectetur eros. Sed porttitor sodales imperdiet. Curabitur in mi nunc. Vivamus posuere placerat arcu a elementum. Sed sollicitudin neque sed nulla vehicula, a vehicula ante dapibus. Vivamus pellentesque pellentesque justo, non convallis lectus tincidunt vel. Sed mollis augue mattis, malesuada diam et, suscipit leo. Ut a sapien pretium, tempus neque ut, aliquam nisi. Mauris vel bibendum massa, vel luctus ligula. Donec risus turpis, gravida in ante ut, volutpat scelerisque metus. Praesent laoreet ullamcorper posuere.",
+  "chapterTestFile": {
+  "name": "chapterTests",
+  "type": "json"
+  },
+  "contentFile": {
+  "name": "content",
+  "type": "json"
+  },
+  "color": "#1BA39C",
+  "bookPath": "Matte5000_TEST1",
+  "productIdentifier" : "se.nok.losningsappen.matte5000rg"
+  }
+  ,
+  {
+  "title": "Matte 5000 Röd Gul test 2",
+  "description": "Lorem ipsum dolor sit amet, ",
+  "chapterTestFile": {
+  "name": "chapterTests",
+  "type": "json"
+  },
+  "contentFile": {
+  "name": "content",
+  "type": "json"
+  },
+  "color": "#1BA39C",
+  "bookPath": "Matte5000_TEST2",
+  "productIdentifier" : "se.nok.losningsappen.matte5000rt"
+  }
+]

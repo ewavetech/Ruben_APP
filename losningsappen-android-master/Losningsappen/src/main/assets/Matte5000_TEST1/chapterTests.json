@@ -1,0 +1,625 @@
+ [
+  {
+  "meta": "Tipset består av 10 flervalsfrågor där varje fråga har 3 svarsalternativ markerade 1, x, 2.Digitala verktyg är inte tillåtna.",
+  "questions": [
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "1)",
+                            "text": "Addition"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "x)",
+                            "text": "Multiplikation"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "2)",
+                            "text": "Subtraktion"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "1",
+                "text": "Vad heter räknesättet när man beräknar en produkt?",
+                "typeOfQuestion": 1
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "1)",
+                            "text": "87"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "x)",
+                            "text": "88"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "2)",
+                            "text": "89"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "2",
+                "text": "Ett av talen 87, 88, 89  är ett primtal. Vilket?",
+                "typeOfQuestion": 1
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "1)",
+                            "text": "0,47"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "x)",
+                            "text": "0,48"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "2)",
+                            "text": "0,49"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "3",
+                "text": "Vilket tal pekar pilen på?",
+                "typeOfQuestion": 1
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "1)",
+                            "text": "– 4"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "x)",
+                            "text": "– 15"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "2)",
+                            "text": "– 25"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "4",
+                "text": "Summan av ett positivt och ett negativt tal är – 20. Det positiva talet är 5. Vilket är det negativa talet?",
+                "typeOfQuestion": 1
+                }
+                ],
+  "title": "Kapiteltips 1 Aritmetik – om tal",
+  "typeOfTest": 1
+  },
+  {
+  "meta": "Testet består av 10 påståenden som ska besvaras med sant eller falskt.Digitala verktyg är inte tillåtna.",
+  "questions": [
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "",
+                            "text": "Sant"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "",
+                            "text": "Falskt"
+                            }
+                            ],
+                "imgPath": "chapterTest_img/1bcVux_Test_kap_1-6_Sant_eller_falskt_HH140525/Blank_Map-Africa.svg",
+                "number": "1",
+                "text": "Påstående: Förändringsfaktorn 0,6 motsvarar en minskning med 60 %.Sant eller falskt?",
+                "typeOfQuestion": 0
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "",
+                            "text": "Sant"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "",
+                            "text": "Falskt"
+                            }
+                            ],
+                "imgPath": "chapterTest_img/1bcVux_Test_kap_1-6_Sant_eller_falskt_HH140525/2test.svg",
+                "number": "2",
+                "text": "Påstående: Lösningen till ekvationen  43 – x = 4x – 22  är x = a där a är ett primtal.Sant eller falskt?",
+                "typeOfQuestion": 0
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "",
+                            "text": "Sant"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "",
+                            "text": "Falskt"
+                            }
+                            ],
+                "imgPath": "chapterTest_img/1bcVux_Test_kap_1-6_Sant_eller_falskt_HH140525/3test.svg",
+                "number": "3",
+                "text": "Påstående: Om man singlar slant tre gånger i rad så är sannolikheten 3/8  att man, oberoende av ordning, får precis en krona och två klave.Sant eller falskt?",
+                "typeOfQuestion": 0
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "",
+                            "text": "Sant"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "",
+                            "text": "Falskt"
+                            }
+                            ],
+                "imgPath": "chapterTest_img/1bcVux_Test_kap_1-6_Sant_eller_falskt_HH140525/4test.svg",
+                "number": "4",
+                "text": "Påstående: Värdet av uttrycket  2a3 – 2a  är lika med 8 då  a = 2 .Sant eller falskt?",
+                "typeOfQuestion": 0
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "",
+                            "text": "Sant"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "",
+                            "text": "Falskt"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "5",
+                "text": "Påstående: Den färgade figuren utgör exakt 30 % av hela rektangelns area..Sant eller falskt?",
+                "typeOfQuestion": 0
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "",
+                            "text": "Sant"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "",
+                            "text": "Falskt"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "6",
+                "text": "Påstående: En fyrhörning som, i ett koordinatsystem, har sina hörn i origo och i punkterna (-1,3), (7,0) och (8,3) har exakt en symmetrilinje.Sant eller falskt?",
+                "typeOfQuestion": 0
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "",
+                            "text": "Sant"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "",
+                            "text": "Falskt"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "7",
+                "text": "I figuren visas grafen till funktionen y = f(x).(Mats: y = x/3 + 1 ritad i koordinatsystem enligt nedan) Påstående: Ekvationen  f(x) = 3  har lösningen  x = 2.Sant eller falskt?",
+                "typeOfQuestion": 0
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "",
+                            "text": "Sant"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "",
+                            "text": "Falskt"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "8",
+                "text": "Påstående: Det binära talet  10011  och talet 34 i bas 5 har samma värde.Sant eller falskt?",
+                "typeOfQuestion": 0
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "",
+                            "text": "Sant"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "",
+                            "text": "Falskt"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "9",
+                "text": "Påstående: I ett koordinatsystem ligger punkten (-1,2) i det område där 2x – y < 0.Sant eller falskt?",
+                "typeOfQuestion": 0
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "",
+                            "text": "Sant"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "",
+                            "text": "Falskt"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "10",
+                "text": "Påstående: Ekvationen  28 ∙ 4x = 810  har lösningen  x = 11.Sant eller falskt?",
+                "typeOfQuestion": 0
+                }
+                ],
+  "title": "1bcVux Test kap 1 – 6. Sant eller falskt?",
+  "typeOfTest": 0
+  },
+  {
+  "meta": "Testet består av 10 uppgifter. Till varje uppgift finns 5 svarsalternativ markerade A - E. Till varje uppges antalet korrekta alternativ.Digitala verktyg är tillåtna.",
+  "questions": [
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "A.",
+                            "text": "1100två"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "B.",
+                            "text": "102tre"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "C.",
+                            "text": "30fyra"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "D.",
+                            "text": "15sex"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "E.",
+                            "text": "12tio"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "1",
+                "text": "Talet 15 är skrivet i bas 7. Vilka tre av alernativen A – E har samma värde som talet 15sju?",
+                "typeOfQuestion": 2
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "A.",
+                            "text": "31"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "B.",
+                            "text": "33"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "C.",
+                            "text": "35"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "D.",
+                            "text": "37"
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "E.",
+                            "text": "39"
+                            }
+                            ],
+                "imgPath": "",
+                "number": "2",
+                "text": "Vilka två av alternativen A – E är primtal?",
+                "typeOfQuestion": 2
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "A.",
+                            "text": "Antalet pojkar ökade med 50 %."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "B.",
+                            "text": "Antalet flickor ökade med 33 %."
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "C.",
+                            "text": "Andelen flickor minskade med 10 %."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "D.",
+                            "text": "Andelen pojkar ökade med 25 %."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "E.",
+                            "text": "Andelen flickor minskade med 10 procentenheter."
+                            }
+                            ],
+                "imgPath": "",
+                "number": "3",
+                "text": "Elevrådets styrelse på en skola utökades från 5 till 8 medlemmar. I den gamla styrelsen satt 3 flickor och 2 pojkar och i den nya styrelsen var fördelningen 4 flickor och 4 pojkar. Vilka tre påståenden A – E är korrekta för styrelsens förändring?",
+                "typeOfQuestion": 2
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "A.",
+                            "text": "Om man kör 75 km under ett dygn så är kostnaden 750 kr."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "B.",
+                            "text": "Kostnaden för ett dygn är 800 kr om man kör 125 km."
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "C.",
+                            "text": "Kostnaden för ett dygn fördubblas om körsträckan ökar från 250 km till 500 km."
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "D.",
+                            "text": "50 ≤ x ≤ 80   600 ≤ K ≤ 700"
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "E.",
+                            "text": "Om man under ett dygn kör längre än 425 km så blir kostnaden lägre än 4 kr/km."
+                            }
+                            ],
+                "imgPath": "",
+                "number": "4",
+                "text": "Kostnaden K kr för att hyra en bil ett dygn och köra sträckan x km beskrivs av formeln K = 425 + 3x Vilka två av alternativen A – E är korrekta för denna hyrbil?",
+                "typeOfQuestion": 2
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "A.",
+                            "text": "Efter en månad är skulden 5 825 kr."
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "B.",
+                            "text": "Efter två månader är skulden 6 650 kr."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "C.",
+                            "text": "Om skulden betalas efter tre månader är räntekostnaden 2 905 kr."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "D.Denprocentuellaårsräntan(effektivaräntan)",
+                            "text": "på lånet är över 500 %."
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "E.",
+                            "text": "Efter 4 månader har skulden fördubblats."
+                            }
+                            ],
+                "imgPath": "",
+                "number": "5",
+                "text": "Låna 5 000 kr! Månadsräntan är 16,5%. Om lånet inte betalas tillbaka efter en månad så beräknas den andra månadens ränta på summan av lånebeloppet och den första månadens ränta. Skulden fortsätter att öka på samma sätt månad efter månad. Vilka tre påståenden A – E är korrekta för detta lån?",
+                "typeOfQuestion": 2
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "A.",
+                            "text": "Om du tar ett bestick är sannolikheten 0,5 att du får en kniv."
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "B.",
+                            "text": "Om du tar två bestick är sannolikheten 0,25 att du får två knivar."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "C.",
+                            "text": "Om du tar två bestick är sannolikheten   att du, oberoende av ordning, får en kniv och en gaffel."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "D.",
+                            "text": "Om du tar tre bestick är sannolikheten   att du får tre knivar."
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "E.",
+                            "text": "Om du tar två bestick är sannolikheten större att du får två olika bestick än att du får två lika."
+                            }
+                            ],
+                "imgPath": "",
+                "number": "6",
+                "text": "I en låda med bestick ligger 5 knivar och 5 gafflar. Anta att du tar bestick helt slumpmässigt från lådan. Vilka tre påståenden A – E är korrekta?",
+                "typeOfQuestion": 2
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "A.",
+                            "text": "Priset på en 18 karats guldring som väger 8,4 gram är 1 240 kr."
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "B.",
+                            "text": "Priset på 23 karats guld är 55 % högre än på 14 karats guld."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "C.",
+                            "text": "Priset är proportionellt mot guldhalten."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "D.",
+                            "text": "För en 23 karats guldtacka med vikten exakt 5 hg är priset 99 000 kr."
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "E.",
+                            "text": "Priset på 45 gram 14 karats guld är lägre än 33 gram 18 karats guld."
+                            }
+                            ],
+                "imgPath": "",
+                "number": "7",
+                "text": "Tabellen visar vad en guldhandlare betalar för begagnade guldföremål.      Vilka två påståenden A – E är korrekta?",
+                "typeOfQuestion": 2
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "A.",
+                            "text": "Höjdens längd är 60 cm."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "B.",
+                            "text": "Om höjdens längd i cm är x så kan omkretsen skrivas x + 1,05x + x + 1,05x."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "C.",
+                            "text": "Basens längd är 84 cm."
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "D.",
+                            "text": "Arean är 6 396 cm2."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "E.",
+                            "text": "Diagonalens längd är 116 cm."
+                            }
+                            ],
+                "imgPath": "",
+                "number": "8",
+                "text": "I en rektangel med omkretsen 328 cm är basen 5% längre än höjden. Vilka tre påståenden A – E är korrekta för denna rektangel?",
+                "typeOfQuestion": 2
+                },
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "A.",
+                            "text": "Mellan år 1980 och 1990 ökade KPI med 207,8 %."
+                            },
+                            {
+                            "isCorrectAnswer": false,
+                            "number": "B.",
+                            "text": "Mellan år 2000 och 2010 ökade KPI med 42,6 %."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "C.",
+                            "text": "Med år 2000 som basår blir KPI för år 2010 värdet 116,3."
+                            },
+                            {
+                            "isCorrectAnswer": true,
+                            "number": "D.",
+                            "text": "En burk läsk som kostade 6,50 kr år 1990 skulle ha kostat 8,15 kr år 2000 om priset följt KPI."
+                            }, 
+                            {
+                            "isCorrectAnswer": false, 
+                            "number": "E.", 
+                            "text": "Den procentuella ökningen av KPI var större mellan år 2000 och år 2010 än mellan år 1990 och år 2000."
+                            }
+                            ], 
+                "imgPath": "", 
+                "number": "9", 
+                "text": "KPI = KonsumentprisindexVilka två påståenden A – E är korrekta för värdena i tabellen?", 
+                "typeOfQuestion": 2
+                }, 
+                {
+                "choices": [
+                            {
+                            "isCorrectAnswer": false, 
+                            "number": "A.", 
+                            "text": "Månadshyran år 2013 var högre än 4 000 kr."
+                            }, 
+                            {
+                            "isCorrectAnswer": true, 
+                            "number": "B.", 
+                            "text": "Mellan år 2008 och 2013 ökade månadshyran med 50 %."
+                            }, 
+                            {
+                            "isCorrectAnswer": true, 
+                            "number": "C.", 
+                            "text": "År 2013 var årshyran 15 600 kr högre än årshyran år 2008."
+                            }, 
+                            {
+                            "isCorrectAnswer": false, 
+                            "number": "D.", 
+                            "text": "Om hyran fortsätter att öka med samma belopp per år som genomsnittsökningen i kronor per år mellan 2008 och 2013 så är hyran år 2015 1 426 kr per kvadratmeter och år."
+                            }, 
+                            {
+                            "isCorrectAnswer": true, 
+                            "number": "E.", 
+                            "text": "Ökningen av hyran mellan år 2008 och 2013 motsvarar en genomsnittlig ökning med 8,5% per år."
+                            }
+                            ], 
+                "imgPath": "", 
+                "number": "10", 
+                "text": "En lägenhet med 1 rum och kök har bostadsytan 40 m2. År 2008 var hyran 780 kr per kvadratmeter och år och år 2013 var hyran 1170 kr per kvadratmeter och år.Vilka tre påståenden A – E är korrekta för lägenhetens hyra?", 
+                "typeOfQuestion": 2
+                }
+                ], 
+  "title": "1bcVux Test kapitel 1 – 6. Flervalsfrågor.", 
+  "typeOfTest": 2
+  }
+  ]
