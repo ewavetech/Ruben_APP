@@ -129,7 +129,13 @@ public class SubtaskActivity extends NokActivity implements HintView.HintViewLis
 
     private String webformat(String hints) {
 
-        return "<html><head><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"></head><body>" + hints + "</body></html>";
+        return "<html>" +
+                "<head>" +
+                "<script type=\"text/javascript\" src=\"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\"></script>"+
+                "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">" +
+                "</head>" +
+                "<body>" + hints + "</body>" +
+                "</html>";
     }
 
     private void showMoreSollution() {

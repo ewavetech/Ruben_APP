@@ -35,7 +35,17 @@ import se.hiq.losningsappen.common.models.settings.SettingsContext;
 
 public class ChapterTestArrayAdapter extends BaseAdapter {
 
-    public final static String HTML_BASE = "<html><head><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"></head><body>?</body></html>";
+    public final static String HTML_BASE = "<html>" +
+            "<head>" +
+            "<script type=\"text/javascript\"\n" +
+            "  src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\">\n" +
+            "</script>"+
+            "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">" +
+            "</head>" +
+            "<body>" +
+            "?" +
+            "</body>" +
+            "</html>";
     private static ImageLoaderConfiguration configuration;
     private Context context;
     private List<Question> list;
